@@ -21,7 +21,7 @@ public class AccountService {
                 .Builder()
                 .number(accountDTO.getNumber())
                 .balance(accountDTO.getBalance())
-                .type(AccountType.SAVING)
+                .type(AccountType.CURRENT)
                 .isActive(accountDTO.getIsActive())
                 .build();
 
